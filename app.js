@@ -4,8 +4,8 @@
 // var first = myArray[0];
 // var last = myArray[myArray.length - 1];
 
-// myArray[0] = last;
-// myArray[myArray.length - 1] = first;
+// // myArray[0] = last;
+// // myArray[myArray.length - 1] = first;
 
 // console.log(myArray);
 
@@ -153,13 +153,12 @@
 
 //Question no 15
 
-// var mobileBrands = ["Apple","Samsung","Motorola","Nokia","Sony","Hair"]
+// var mobileBrands = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
 // document.write( "<label for='brand'>"+"Choose a mobile Brand: "+"</label>"+ "<select name='mobileBrand' id='brand'>"+"<option value='apple'>"+mobileBrands[0]+"</option>"+"<+ value='samsung'>"+mobileBrands[1]+"<option value='motorola'>"+mobileBrands[2]+"</option>"+"<option value='nokia'>"+mobileBrands[3]+"</option>"+"<option value='sony'>"+mobileBrands[3]+"</option>"+"<option value='hair'>"+mobileBrands[4]+"</option>" +"</select>")
 
 //<----------------------------------------------------Chapter no 17 to 20--------------------------------------------------------------->
 
-//Pelindrom Words
-
+//<*********************Pelindrom Words********************>
 
 // var userInput = prompt('Enter a word:');
 // var reversedInput = userInput.split('').reverse().join('');
@@ -169,6 +168,21 @@
 // alert(userInput+" is not a palindrome.");
 // }
 
+//<******************Without Method***************************>
+
+// var str =prompt("Enter a vword")
+// var reversestr=""
+
+// for(i=str.length-1;i>=0;i--){
+//     reversestr=reversestr+str[i]
+// }
+// if(str===reversestr){
+// alert(str+" is a palindrome word")
+// }else{
+//     alert(str+" is not a palindrome")
+// }
+
+
 //Question no 01
 
 // var multiDimension;
@@ -176,7 +190,7 @@
 
 //Qyuestion no 02
 
-// var matrix = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+// var matrix = [[0,1,2,3],[1,0,1,2)],[2,1,0,1]]
 // document.write(matrix[0,[0]] +"</br>"+matrix[1] +"</br>"+matrix[2] )
 
 //Question no 03
