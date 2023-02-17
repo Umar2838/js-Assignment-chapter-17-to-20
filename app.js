@@ -182,6 +182,19 @@
 //     alert(str+" is not a palindrome")
 // }
 
+//<****************************With For Loop*************************************>
+
+var user = prompt("Enter a word")
+for( var u=0;u<user.length;u++){
+}
+for (var i = user.length - 1; i >= 0; i--) {
+}
+ if(user[u]===user[i]){
+alert("It is a palindrome")
+}else{
+    alert("It is not a palindrome")
+}
+
 
 //Question no 01
 
